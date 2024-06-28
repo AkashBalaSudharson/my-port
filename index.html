@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Bala Sudharson - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>A</span>kash Bala Sudharson</a>
+        <ul class="navbar">
+            <li><a href="#" class="nav-link active" data-target="home">Home</a></li>
+            <li><a href="#" class="nav-link" data-target="about">About</a></li>
+            <li><a href="#" class="nav-link" data-target="skills">Skills</a></li>
+            <li><a href="#" class="nav-link" data-target="projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link" data-target="contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <span>MENU</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    
+    <!-- Home section -->
+    <section id="home" class="section home">
+        <div class="home-text">
+            <span>Developer</span>
+            <h1>Akash Bala Sudharson S</h1>
+            <p>I'm a dedicated and results-driven software developer with a passion for coding and problem-solving.
+                Recent graduate with a Bachelor's degree in Computer Science, equipped with a solid foundation in
+                software engineering principles.</p>
+            <div class="main-btn">
+                <a href="https://drive.google.com/file/d/1t0kMmYqbEVI5B-Tg57z7U77mny6Br1J1/view?usp=sharing" class="btn" download>Download CV</a>
+                <a href="#contact" class="btn two">Hire Me Now</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="personal/home.jpg" alt="Home Image">
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const hireMeButton = document.querySelector('.main-btn .two');
+                hireMeButton.addEventListener('click', function() {
+                    const contactSection = document.getElementById('contact');
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        </script>
+        
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>As a fresher software developer passionate about web and software development, I have honed my skills through creating dynamic web applications and developing robust software solutions. My technical proficiency includes expertise in HTML, CSS, JavaScript, and Python, along with experience in using frameworks like React and Django. I have successfully designed and implemented projects, including a comprehensive portfolio website with functional navigation, a downloadable resume feature, and a working contact form. Committed to continuous learning and improvement, I actively seek opportunities to enhance my technical abilities and contribute to innovative development projects. My strong problem-solving skills, attention to detail, and ability to work collaboratively make me a valuable addition to any development team.</p>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="skills section">
+        <h2>Skills</h2>
+         <!-- SKILLS HTML -->
+         <div class="skills_data">
+            <div class="skills_name">
+              <i class="bx bxl-html5 skill_icon"></i>
+              <span class="skill_name">Html5</span>
+            </div>
+
+            <div><span class="skill_percentage">80%</span></div>
+
+            <div class="skill_bar skill_html"></div>
+          </div>
+
+          <!-- SKILLS css -->
+          <div class="skills_data">
+            <div class="skills_name">
+              <i class="bx bxl-css3 skill_icon"></i>
+              <span class="skill_name">CSS</span>
+            </div>
+
+            <div><span class="skill_percentage">75%</span></div>
+
+            <div class="skill_bar skill_css"></div>
+          </div>
+
+          <!-- SKILLS JS -->
+          <div class="skills_data">
+            <div class="skills_name">
+              <i class="bx bxl-javascript skill_icon"></i>
+              <span class="skill_name">JS</span>
+            </div>
+
+            <div><span class="skill_percentage">70%</span></div>
+
+            <div class="skill_bar skill_js"></div>
+          </div>
+
+          <!-- SKILLS PYTHON -->
+          <div class="skills_data">
+            <div class="skills_name">
+              <i class="bx bxl-python skill_icon"></i>
+              <span class="skill_name">Python</span>
+            </div>
+
+            <div><span class="skill_percentage">80%</span></div>
+
+            <div class="skill_bar skill_python"></div>
+          </div>
+           <!-- SKILLS JAVA -->
+           <div class="skills_data">
+            <div class="skills_name">
+              <i class="bx bxl-java skill_icon"></i>
+              <span class="skill_name">Java</span>
+            </div>
+
+            <div><span class="skill_percentage">75%</span></div>
+
+            <div class="skill_bar skill_java"></div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Enhancing the User Experience in
+                College ERP Website Through the
+                Implementation of Sequential Monadic
+                Concept Testing</h3>
+            <p>This project is dedicated to enhancing the user experience of College ERP 
+                systems through Sequential Monadic Concept Testing (SMCT). Through a 
+                systematic evaluation of diverse design concepts and features, the study aims to 
+                identify and refine elements that contribute to improved usability, satisfaction, and 
+                engagement for users. Employing a comprehensive approach encompassing user 
+                feedback collection, analysis, and iterative refinement of design concepts, the 
+                research seeks to address usability challenges and optimize the functionality of 
+                College ERP systems. </p>
+        </div>
+        <div class="project">
+            <h3>Tea Leaves Disease Classification and
+                Detection Using Deep Learning</h3>
+            <p>
+                Developed and implemented a deep learning-based system for the detection and classification of tea leaf diseases, utilizing convolutional neural networks (CNNs) to achieve high accuracy. The model was trained on a comprehensive dataset of tea leaf images, effectively distinguishing between healthy leaves and those affected by common diseases such as leaf spot, blight, and rust. This innovative solution enhances the efficiency of disease management in tea plantations, enabling timely intervention and contributing to improved crop yield and quality. The project demonstrates expertise in data preprocessing, model architecture design, and performance evaluation, showcasing advanced skills in deep learning and image classification.</p>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:akashabs123@gmailcom" method="post" enctype="text/plain">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Social links section -->
+    <div class="share">
+        <p>Check out my:</p>
+        <div class="social">
+            <a href="https://www.instagram.com/black_devil_abs"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/AkashBalaSudharson"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/akash-bala-sudharson"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Akash Bala Sudharson. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
